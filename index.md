@@ -9,7 +9,7 @@ It doesn't matter, if you are a cricket fan or not, you must have encountered so
 
 ### Why prediction?
 
-<p> Humans have always been curious about the future. Knowing what would happen in near future beforehand is no less than a superpower. Presently, researchers and scientists are using historical data to observe patterns to forecast/predict upcoming events so our lives can be easier. In Statistics, the words prediction, forecasting, and estimation are identical and can be used interchangeably. "Prediction" more naively can be described as a well-informed guess or opinion. Therefore, in this article, we will use the magical power of historical data to predict the winners of the tournament before they actually win.</p>
+<p> Humans have always been curious about the future. Knowing what would happen in near future beforehand is no less than a superpower. Presently, researchers and scientists are using historical data to observe patterns to forecast/predict upcoming events so our lives can be easier. In statistics, the words prediction, forecasting, and estimation are identical and can be used interchangeably. "Prediction" more naively can be described as a well-informed guess or opinion. Therefore, in this article, we will use the magical power of historical data to predict the winners of the tournament before they actually win.</p>
 
 ### Where to begin?
 
