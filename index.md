@@ -19,7 +19,7 @@ For T-20 data : [ESPN_CricketInfo](https://stats.espncricinfo.com/ci/engine/stat
 
 For IPL data : [HowStat](http://www.howstat.com/cricket/Statistics/IPL/MatchList.asp)
 
-This source (espncricinfo) has all the ICC T20 match records along with full scorecards. I have used **Beautifulsoup**, A python library for scraping data from a static webpage. If you are curious about how to do it, You can click here to check the source code.
+This source (espncricinfo) has all the ICC T20 match records along with full scorecards. I have used  **Beautifulsoup** , A python library for scraping data from a static webpage. If you are curious about how to do it, You can click here to check the source code.
 Now we have acquired our magical power of historical data, Our next step would be to explore this power so we can use it for good.
 
 ### Exploring magical power "Data" :
@@ -29,4 +29,6 @@ We have 1374 T20 match records from 17th-Feb-2005 till 18th-Oct-2021. We will be
 Let's consider the  most hyped "India vs Pakistan" upcoming match and analyze it
 
 
-<img src="indvpak.jpeg" alt="indvpak" align='left'>
+![indvpak!](indvpak.jpeg "indvpak")
+
+The above figure shows the head to head win percentages for both the team. It is evident that india has performed well between the two.
