@@ -5,11 +5,11 @@
 # ICC Men's T20 World Cup 2021
 
 <p> Though football is one of the most popular games in the world but when it comes to cricket, ICC's tournaments are not far behind.
-It doesn't matter, if you are a cricket fan or not, you must have encountered some cricket-based ads, blog links, and whatnot. So many promotional advertising messages and emails must have realized you, how religiously people follow cricket and like to discuss it. In this blog, We would discuss this year's cricket world cup, various participating teams, their statistics, and past performances. We will be concluding our discussion by methodically predicting finalists, semi-finalists, and top teams in the qualifier round.</p>
+It doesn't matter, if you are a cricket fan or not, you must have encountered some cricket-based ads, blog links, and whatnot. So many promotional advertising messages and emails must have made you realize, how religiously people follow cricket and like to discuss it. In this blog, We would discuss this year's cricket world cup, various participating teams, their statistics, and past performances. We will be concluding our discussion by methodically predicting finalists, semi-finalists, and top teams in the qualifier round.</p>
 
 ### Why prediction?
 
-<p> Human has always been curious about the future and future events. Knowing what would happen in near future beforehand is no less than a superpower. Presently, Researchers and Scientists are using historical data to observe patterns to forecast/predict upcoming events so our lives can be easier. In Statistics, the words Prediction, Forecasting, and Estimation are identical and can be used interchangeably. "Prediction" more naively can be described as a well-informed guess or opinion. Therefore, In this article, we will use the magical power of historical data to predict the winners of the tournament before they actually win.</p>
+<p> Humans have always been curious about the future. Knowing what would happen in near future beforehand is no less than a superpower. Presently, Researchers and Scientists are using historical data to observe patterns to forecast/predict upcoming events so our lives can be easier. In Statistics, the words Prediction, Forecasting, and Estimation are identical and can be used interchangeably. "Prediction" more naively can be described as a well-informed guess or opinion. Therefore, In this article, we will use the magical power of historical data to predict the winners of the tournament before they actually win.</p>
 
 ### Where to begin?
 
@@ -26,14 +26,16 @@ Now we have acquired our magical power of historical data, Our next step would b
 
 We have 1374 T20 match records from 17th-Feb-2005 till 18th-Oct-2021. We will be using only those matches which resulted in a "win" for either team, removing " n/r or tied ".
 
-**Let's consider the  most hyped "India vs Pakistan" upcoming match and analyze it**
+Let's consider the  most hyped "India vs Pakistan" upcoming match and analyze it
 
 
 ![indvpak!](indvpak.jpeg "Head to Head")
 
 The above figure shows the head to head win percentages for both the team. It is evident that india has performed well between the two.
 
-Now we will see how **Toss** plays an important role in India vs Pakistan match.
+Now we will compare their batting, and see what we can interpret
 
+1) Batting First 
 ![indvpak_1stbat!](indvpak_1stbat.jpeg "Batting First")
 
+Though pakistan got to bat first, it doesn't have much impact on the results.
