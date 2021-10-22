@@ -1,7 +1,7 @@
-<img src="https://github.com/imAllok/blog/blob/gh-pages/img1.png" alt="dotCMS logo">
+<div><img src="https://github.com/imAllok/blog/blob/gh-pages/img1.png" alt="dotCMS logo"></div>
 
 
-# ICC Men's T20 World Cup 2021 :
+# ICC Men's T20 World Cup 2021
 
 <p> Though football is one of the most popular games in the world but when it comes to cricket, ICC's tournaments are not far behind.
 It doesn't matter, if you are a cricket fan or not, you must have encountered some cricket-based ads, blog links, and whatnot. So many promotional advertising messages and emails must have realized you, how religiously people follow cricket and like to discuss it. In this blog, We would discuss this year's cricket world cup, various participating teams, their statistics, and past performances. We will be concluding our discussion by methodically predicting finalists, semi-finalists, and top teams in the qualifier round.</p>
