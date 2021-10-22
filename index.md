@@ -1,3 +1,6 @@
+<img src="https://github.com/imAllok/blog/blob/gh-pages/img1.png" alt="dotCMS logo">
+
+
 # ICC Men's T20 World Cup 2021 :
 
 <p> Though football is one of the most popular games in the world but when it comes to cricket, ICC's tournaments are not far behind.
