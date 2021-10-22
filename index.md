@@ -22,13 +22,18 @@ For IPL data : [HowStat](http://www.howstat.com/cricket/Statistics/IPL/MatchList
 This source (espncricinfo) has all the ICC T20 match records along with full scorecards. I have used  **Beautifulsoup** , A python library for scraping data from a static webpage. If you are curious about how to do it, You can click here to check the source code.
 Now we have acquired our magical power of historical data, Our next step would be to explore this power so we can use it for good.
 
-### Exploring magical power "Data" :
+### Exploring magical power "Data"
 
 We have 1374 T20 match records from 17th-Feb-2005 till 18th-Oct-2021. We will be using only those matches which resulted in a "win" for either team, removing " n/r or tied ".
 
-Let's consider the  most hyped "India vs Pakistan" upcoming match and analyze it
+**Let's consider the  most hyped "India vs Pakistan" upcoming match and analyze it**
 
 
-![indvpak!](indvpak.jpeg "indvpak")
+![indvpak!](indvpak.jpeg "Head to Head")
 
 The above figure shows the head to head win percentages for both the team. It is evident that india has performed well between the two.
+
+Now we will see how **Toss** plays an important role in India vs Pakistan match.
+
+![indvpak_1stbat!](indvpak_1stbat.jpeg "Batting First")
+
