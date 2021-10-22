@@ -1,5 +1,5 @@
 
-<div><img src="https://github.com/imAllok/blog/blob/gh-pages/img1.png" alt="t20 Image"></div>
+<div><img src="img1.png" alt="t20 Image"></div>
 
 
 # ICC Men's T20 World Cup 2021
