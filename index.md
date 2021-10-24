@@ -35,7 +35,9 @@ The above figure shows the head to head win percentages for both the team. It is
 
 Now we will compare their batting, and see what we can interpret
 
-1) Batting First 
-![indvpak_1stbat!](indvpak_1stbat.jpeg "Batting First")
+1) Number of player's who scored 30+ runs from eiter side
 
-Though pakistan got to bat first, it doesn't have much impact on the results.
+![indvpak_30+!](indvpak_1stbat.jpeg "Batting First")
+
+More number of players scored 30+ runs and led pakistan to victory in third match.
+Apparently, only one player score 30+ in followed matches from pakistan aiding india to win.
