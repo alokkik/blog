@@ -67,3 +67,7 @@ Lets have a glance over the bowling economy to get a clear distinction between t
 ![indvpak_bowl_econ!](indvpak_bowl_econ.jpeg "Bowling economy")
 
 Above infographic evince an economical bowling of indian team. 
+
+Although indian batting and bowling looks impressive on the graphs, pakistan team statistics looks promising too.
+
+
