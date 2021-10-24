@@ -66,4 +66,4 @@ Lets have a glance over the bowling economy to get a clear distinction between t
 
 ![indvpak_bowl_econ!](indvpak_bowl_econ.jpeg "Bowling economy")
 
-Above infographic evince an economical bowling of indian team, 
+Above infographic evince an economical bowling of indian team. 
