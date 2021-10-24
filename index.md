@@ -42,16 +42,12 @@ The above figure shows the head to head win percentages for both the team. It is
 
 ![indvpak_30+!](indvpak_30+.jpeg "Players scored 30+")
 
-<br />
-
 More number of players scored 30+ runs and led pakistan to victory in third match.
 Apparently, only one player scored 30+ in following matches from pakistan greecing the wheels for india's win.
 
 <br />
 
 ![indvpak_run_rate!](indvpak_run_rate.jpeg "team run rate per match")
-
-<br />
 
 Scoring at better run rates than pakistan in most matches evince win for india.
 
@@ -64,4 +60,10 @@ Scoring at better run rates than pakistan in most matches evince win for india.
 
 ![indvpak_team_extra!](indvpak_team_extra.jpeg "Team extras")
 
-Initially, indian bolwing has rewarded pakistan with few extras which seem to be imporved in later matches.
+Initially, indian bowling had rewarded pakistan with few extras which seem to be imporved in latter matches.
+Lets have a glance over the bowling economy to get a clear distinction between the two teams.
+<br />
+
+![indvpak_bowl_econ!](indvpak_bowl_econ.jpeg "Bowling economy")
+
+Above infographic evince an economical bowling of indian team, 
