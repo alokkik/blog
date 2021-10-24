@@ -37,7 +37,7 @@ Now we will compare their batting, and see what we can interpret
 
 1) Number of player's who scored 30+ runs from eiter side
 
-![indvpak_30+!](indvpak_1stbat.jpeg "Batting First")
+![indvpak_30+!](indvpak_30+.jpeg "Players scored 30+")
 
 More number of players scored 30+ runs and led pakistan to victory in third match.
 Apparently, only one player score 30+ in followed matches from pakistan aiding india to win.
