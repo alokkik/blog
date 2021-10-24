@@ -43,5 +43,5 @@ Apparently, only one player scored 30+ in following matches from pakistan greeci
 
 ![indvpak_run_rate!](indvpak_run_rate.jpeg "team run rate per match")
 
-Scoring at better run rates than pakistan in every match evinced win for india.
+Scoring at better run rates than pakistan in most matches evince win for india.
 
