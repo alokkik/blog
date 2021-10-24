@@ -29,7 +29,7 @@ We have 1374 T20 match records from 17th-Feb-2005 till 18th-Oct-2021. We will be
 Let's consider the  most hyped "India vs Pakistan" upcoming match and analyze it
 
 
-![indvpak!](indvpak.jpeg "Head to Head")
+![indvpak!](indvpak.jpeg?style=centerme "Head to Head")
 
 The above figure shows the head to head win percentages for both the team. It is evident that india has performed well between the two.
 
