@@ -33,15 +33,35 @@ Let's consider the  most hyped "India vs Pakistan" upcoming match and analyze it
 
 The above figure shows the head to head win percentages for both the team. It is evident that india has performed well between the two.
 
-Now we will compare their batting, and see what we can interpret
+<br />
+<br />
+
+**Now we will compare their batting, and see who dominated the batting department**
+
+<br />
 
 ![indvpak_30+!](indvpak_30+.jpeg "Players scored 30+")
+
+<br />
 
 More number of players scored 30+ runs and led pakistan to victory in third match.
 Apparently, only one player scored 30+ in following matches from pakistan greecing the wheels for india's win.
 
+<br />
 
 ![indvpak_run_rate!](indvpak_run_rate.jpeg "team run rate per match")
 
+<br />
+
 Scoring at better run rates than pakistan in most matches evince win for india.
 
+<br />
+<br />
+
+**Lets explore the bowling aspect of both teams**
+
+<br />
+
+![indvpak_team_extra!](indvpak_team_extra.jpeg "Team extras")
+
+Initially, indian bolwing has rewarded pakistan with few extras which seem to be imporved in later matches.
