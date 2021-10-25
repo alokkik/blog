@@ -160,6 +160,7 @@ Now we have procured the superpower of prediction. Lets use it for future predic
 > ![log_final!](log_final.JPG "vanilla prediction finalists")
 >
 >     India vs Pakistan
+>     
 >   **Winner** 
 >
 > ![log_winner!](log_winner.JPG "vanilla prediction winner")
