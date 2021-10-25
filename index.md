@@ -19,7 +19,7 @@ For T-20 data : [ESPN_CricketInfo](https://stats.espncricinfo.com/ci/engine/stat
 
 For IPL data : [HowStat](http://www.howstat.com/cricket/Statistics/IPL/MatchList.asp)
 
-This source (espncricinfo) has all the ICC T20 match records along with full scorecards. I have used  **Beautifulsoup** , A python library for scraping data from a static webpage. If you are curious about how to do it, You can click here to check the source code.
+This source (espncricinfo) has all the ICC T20 match records along with full scorecards. I have used  **Beautifulsoup** , A python library for scraping data from a static webpage. If you are curious about how to do it, You can [click here](DataScraping_espn.ipynb) to check the source code.
 Now we have acquired our magical power of historical data, our next step would be to explore this power so we can use it for good.
 
 ### Exploring magical power "Data"
@@ -79,7 +79,7 @@ Without further ado, lets initiate with the due process of building a prediction
 **Vanilla model**
 
 Vanilla model is nothing but very basic non-complex model. This approach uses past match records of the two competing teams and calculate probabilities of win and lose. In case both the teams never had a face off earlier or both are equally likely to win, then either team with better ICC rankings will be predicted as winner.   
-curious how to do it? click here to see the code.
+curious how to do it? [click here](vanilla_model.ipynb) to see the code.
 
 The motivation behind this approach is to utilize past head to head contested battles between the teams. Below are phase1 predictions of the model
 
@@ -106,6 +106,7 @@ Following is the AUC_ROC score for the logistic regression model after training.
 
 ![auc_roc!](auc_roc.jpeg "Logistic Regression AUC_ROC")
 
+you can [click here](logistic_model.ipynb) to see the logistic model code.
 Now we are ready with superpower of prediction. Let use it to predict
 
 ### Using the Superpower
