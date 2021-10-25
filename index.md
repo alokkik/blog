@@ -110,7 +110,7 @@ Now we are ready with superpower of prediction. Let use it to predict
 
 ### Using the Superpower
 
-#### Vanilla model prediction for super 12 matches** 
+#### Vanilla model prediction for super 12 matches
 
 ![vanilla!](vanilla.JPG "vanilla prediction phase 2")
 
@@ -136,7 +136,7 @@ India
 ![vanilla_winner!](vanilla_winner.JPG "vanilla prediction winner")
 
 
-#### Logistic regression model prediction for super 12 matches** 
+#### Logistic regression model prediction for super 12 matches
 
 ![log_reg!](log_reg.JPG "log_reg phase 2")
 
