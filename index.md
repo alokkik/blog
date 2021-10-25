@@ -79,7 +79,7 @@ Without further ado, lets initiate with the due process of building a prediction
 **Vanilla model**
 
 Vanilla model is nothing but very basic non-complex model. This approach uses past match records of the two competing teams and calculate probabilities of win and lose. In case both the teams never had a face off earlier or both are equally likely to win, then either team with better ICC rankings will be predicted as winner.   
-Curious how to do it? click here to see the code.
+curious how to do it? click here to see the code.
 
 The motivation behind this approach is to utilize past head to head contested battles between the teams. Below are phase1 predictions of the model
 
