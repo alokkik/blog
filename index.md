@@ -72,4 +72,4 @@ Although indian batting and bowling looks impressive on the graphs, opponent sta
 
 ### Procuring superpower "The prediction model"
 
-Without further ado, lets initiate with the due process of building a prediction model. The data we hold not just has coarse but granular features too. Coarse features help menoeuvre vanilla probabilistic model whereas we can employ coarse, granular and few derived features for statistical algorithms like **Logistic Regression**.
+Without further ado, lets initiate with the due process of building a prediction model. The data we hold not just has coarse but granular features too. Coarse features help menoeuvre vanilla probabilistic model whereas we can employ coarse, granular and few derived features for advanced statistical algorithms like **Logistic Regression**.
