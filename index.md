@@ -110,11 +110,55 @@ Now we are ready with superpower of prediction. Let use it to predict
 
 ### Using the Superpower
 
-Vanilla prediction    
+#### Vanilla model prediction for super 12 matches** 
 
 ![vanilla!](vanilla.JPG "vanilla prediction phase 2")
 
+Semi Finalists 
+* Group 1
+  1. Australia
+  2. West Indies
+  
+* Group 2 
+  1. India
+  2. Pakistan
 
-Logistic regression
+Finalists 
+
+India vs Pakistan
+
+![vanilla_final!](vanilla_final.JPG "vanilla prediction finalists")
+
+Winner 
+
+India
+
+![vanilla_winner!](vanilla_winner.JPG "vanilla prediction winner")
+
+
+#### Logistic regression model prediction for super 12 matches** 
 
 ![log_reg!](log_reg.JPG "log_reg phase 2")
+
+Semi Finalists
+* Group 1
+  1. South Africa
+  2. England
+
+* Group 2
+  1. Pakistan
+  2. India
+
+Finalists 
+
+India vs Pakistan
+
+![log_final!](log_final.JPG "vanilla prediction finalists")
+
+Winner 
+
+Pakistan
+
+![log_winner!](log_winner.JPG "vanilla prediction winner")
+
+**Note : I have used ICC ranking to resolve the ambiguity between the teams to select top 2 from each group in super 12**
