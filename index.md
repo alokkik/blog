@@ -89,18 +89,32 @@ The motivation behind this approach is to utilize past head to head contested ba
 
 **Logistic Regression**
 
-Since logistic regression is a supervised learning algorithm, therefore feature 'winner' be our target column. Logistic regression takes independent variables as input and results log(Odds) that later converted into P(1|X) i.e. probability that given observation belongs to class 1. We can use different probability threshold for classification between classes, default is 0.5.   
+Since logistic regression is a supervised learning algorithm, therefore feature 'winner' be our target column. Logistic regression takes independent variables as input and results log(Odds) that later converted into P(1|X) i.e. probability that given observation belongs to class 1. We can use different probability threshold for classification between classes, default is 0.5. The advantage of logistic approach over vanilla approach is logistic takes team batting, bolwing, and drived attributes as input and weigh them appropriately.
 
-Column "winner" has 1, 2 as values representing "Team1" and "Team2". (Note: 0 or 1 can also represent team1 and team2)    
+The column "winner" has 1, 2 as values representing "Team1" and "Team2". (Note: 0 & 1, 1 & -1 can also represent team1 and team2 numerically)    
 
 <br />
 
-We can derive few variables using existing variables. Deriving new features require good understanding of data and can really help to improve model performance. Following list shows derived varibles with "t1" and "t2" as prefix.
+We can derive few variables using existing variables. Deriving new features require good understanding of data and can really help to improve model performance. Following list shows derived variables with "t1" and "t2" as prefix.
 
 > 't1_matches_played', 't1_matches_won','t1_matches_lost', 't1_win_per', 't1_odds_of_win', 't1_win_prob','t1_past10_win_per', 't1_past10_lose_per', 't2_matches_played', 't2_matches_won', 't2_matches_lost', 't2_win_per', 't2_odds_of_win','t2_win_prob', 't2_past10_win_per', 't2_past10_lose_per'
 
 Further process to build and train logistic regression model is mentioned here.   
+**Note: I have also used IPL data along with T20 because the format of the game and methodology to derive team1, team2 attributes are same.**
 
 Following is the AUC_ROC score for the logistic regression model after training. Better the AUC_ROC score, better the capability of model to differentiate between two classes.
 
 ![auc_roc!](auc_roc.jpeg "Logistic Regression AUC_ROC")
+
+Now we are ready with superpower of prediction. Let use it to predict
+
+### Using the Superpower
+
+Vanilla prediction    
+
+![vanilla!](vanilla.JPG "vanilla prediction phase 2")
+
+
+Logistic regression
+
+![log_reg!](log_reg.JPG "log_reg phase 2")
