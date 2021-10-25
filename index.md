@@ -73,3 +73,12 @@ Although indian batting and bowling looks impressive on the graphs, opponent sta
 ### Procuring superpower "The prediction model"
 
 Without further ado, lets initiate with the due process of building a prediction model. The data we hold not just has coarse but granular features too. Coarse features help menoeuvre vanilla probabilistic model whereas we can employ coarse, granular and few derived features for advanced statistical algorithms like **Logistic Regression**.
+<br />
+**Vanilla model**
+
+Vanilla model is nothing but very basic non-complex model. This approach uses past match records of the two competing teams and calculate probabilities of win and lose. In case both the teams never had a face off earlier or both are equally likely to win, then either team with better ICC rankings will be predicted as winner.   
+Curious how to do it? click here to see the code.
+
+The motivation behind this approach is to utilize past head to head contested battles between the teams. 
+<br />
+**Logistic Regression**
