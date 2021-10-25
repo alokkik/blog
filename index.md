@@ -89,7 +89,7 @@ The motivation behind this approach is to utilize past head to head contested ba
 
 **Logistic Regression**
 
-Since logistic regression is a supervised learning algorithm, therefore feature 'winner' be our target column. Logistic regression takes independent variables as input and results log(Odds) that later converted into P(1|X) i.e. probability that given observation belongs to class 1. We can use different probability threshold for classification between classes, default is 0.5. The advantage of logistic approach over vanilla approach is logistic takes team batting, bolwing, and drived attributes as input and weigh them appropriately.
+Since logistic regression is a supervised learning algorithm, therefore feature 'winner' be our target column. Logistic regression takes independent variables as input and results log(Odds) that later converted into P(1/X) i.e. probability that given observation belongs to class 1. We can use different probability threshold for classification between classes, default is 0.5. The advantage of logistic approach over vanilla approach is logistic takes team batting, bolwing, and drived attributes as input and weigh them appropriately.
 
 The column "winner" has 1, 2 as values representing "Team1" and "Team2". (Note: 0 & 1, 1 & -1 can also represent team1 and team2 numerically)    
 
