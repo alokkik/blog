@@ -104,7 +104,7 @@ Following is the AUC_ROC score for the logistic regression model after training.
 
 ![auc_roc!](auc_roc.jpeg "Logistic Regression AUC_ROC")
 
-you can [click here](logistic_model.ipynb) to see the logistic model code.
+you can [click here](logistic_model.ipynb) to see the logistic model code and [here](log_super_12.csv) to see super 12 predictions.
 Now we are ready with superpower of prediction. Let use it to predict
 
 ### Using the Superpower
