@@ -99,3 +99,8 @@ We can derive few variables using existing variables. Deriving new features requ
 
 > 't1_matches_played', 't1_matches_won','t1_matches_lost', 't1_win_per', 't1_odds_of_win', 't1_win_prob','t1_past10_win_per', 't1_past10_lose_per', 't2_matches_played', 't2_matches_won', 't2_matches_lost', 't2_win_per', 't2_odds_of_win','t2_win_prob', 't2_past10_win_per', 't2_past10_lose_per'
 
+Further process to build and train logistic regression model is mentioned here.   
+
+Following is the AUC_ROC score for the logistic regression model after training. Better the AUC_ROC score, better the capability of model to differentiate between two classes.
+
+![auc_roc!](auc_roc.jpeg "Logistic Regression AUC_ROC")
