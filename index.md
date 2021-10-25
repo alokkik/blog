@@ -89,75 +89,81 @@ The motivation behind this approach is to utilize past head to head contested ba
 
 **Logistic Regression**
 
-Since logistic regression is a supervised learning algorithm, therefore feature 'winner' be our target column. Logistic regression takes independent variables as input and results log(Odds) that later converted into P(1/X) i.e. probability that given observation belongs to class 1. We can use different probability threshold for classification between classes, default is 0.5. The advantage of logistic approach over vanilla approach is logistic takes team batting, bolwing, and drived attributes as input and weigh them appropriately.
+Since logistic regression is a linear supervised learning algorithm. It takes independent variables as input and yields log(Odds) that later converted into P(1/X) i.e. probability that given observation belongs to class 1. We can use different probability threshold for classification, default is 0.5. The advantage of logistic approach over vanilla approach is logistic takes various batting, bowling, and derived attributes as input and weigh them appropriately.   
 
-The column "winner" has 1, 2 as values representing "Team1" and "Team2". (Note: 0 & 1, 1 & -1 can also represent team1 and team2 numerically)    
+Advanced statistical algorithms require ample amount of data to establish a strong relationship between input and ouptut.Therefore, here we used ipl data along with t20 due to same format of the game and derived team1, team2 attributes represent same characteristics of teams as in t20.
 
-We can derive few variables using existing variables. Deriving new features require good understanding of data and can really help to improve model performance. Following list shows derived variables with "t1" and "t2" as prefix.
+New attributes can be derived employing existing variables. Deriving new features require good understanding of data and can really help to improve model performance. Following list shows derived variables with "t1" and "t2" as prefix.
 
 > 't1_matches_played', 't1_matches_won','t1_matches_lost', 't1_win_per', 't1_odds_of_win', 't1_win_prob','t1_past10_win_per', 't1_past10_lose_per', 't2_matches_played', 't2_matches_won', 't2_matches_lost', 't2_win_per', 't2_odds_of_win','t2_win_prob', 't2_past10_win_per', 't2_past10_lose_per'
 
-Further process to build and train logistic regression model is mentioned [here](logistic_model.ipynb).   
-**Note: I have also used IPL data along with T20 because the format of the game and methodology to derive team1, team2 attributes are same.**
+Further process to build and train logistic model has mentioned [here](logistic_model.ipynb), as word usage curbs are applicable.
 
 Following is the AUC_ROC score for the logistic regression model after training. Better the AUC_ROC score, better the capability of model to differentiate between two classes.
 
 ![auc_roc!](auc_roc.jpeg "Logistic Regression AUC_ROC")
 
-you can [click here](logistic_model.ipynb) to see the logistic model code and [here](log_super_12.csv) to see super 12 predictions.
-Now we are ready with superpower of prediction. Lets use it for further prediction.
+[here](log_super_12.csv) to see super 12 predictions.
+
+Now we have procured the superpower of prediction. Lets use it for future prediction.
 
 ### Using the Superpower
 
-#### Vanilla model prediction for super 12 matches
+> Vanilla model prediction
+> 
+>    **Super 12**     
+>
+>    ![vanilla!](vanilla.JPG "vanilla prediction phase 2")
+>
+>    **Semi Finalists**  
+>       
+>      * Group 1
+>           1. Australia
+>           2. West Indies
+>
+>      * Group 2 
+>           1. India
+>           2. Pakistan
+>
+>   **Finalists** 
+>      
+> ![vanilla_final!](vanilla_final.JPG "vanilla prediction finalists")
+>
+>     India vs Pakistan
+>   
+>   **Winner** 
+>  
+> ![vanilla_winner!](vanilla_winner.JPG "vanilla prediction winner")
+>
+>     India
 
-![vanilla!](vanilla.JPG "vanilla prediction phase 2")
+<br />
 
-Semi Finalists 
-* Group 1
-  1. Australia
-  2. West Indies
-  
-* Group 2 
-  1. India
-  2. Pakistan
-
-Finalists 
-
-India vs Pakistan
-
-![vanilla_final!](vanilla_final.JPG "vanilla prediction finalists")
-
-Winner 
-
-India
-
-![vanilla_winner!](vanilla_winner.JPG "vanilla prediction winner")
-
-
-#### Logistic regression model prediction for super 12 matches
-
-![log_reg!](log_reg.JPG "log_reg phase 2")
-
-Semi Finalists
-* Group 1
-  1. South Africa
-  2. England
-
-* Group 2
-  1. Pakistan
-  2. India
-
-Finalists 
-
-India vs Pakistan
-
-![log_final!](log_final.JPG "vanilla prediction finalists")
-
-Winner 
-
-Pakistan
-
-![log_winner!](log_winner.JPG "vanilla prediction winner")
-
+>Logistic regression model 
+>
+>   **Super 12**
+>   
+> ![log_reg!](log_reg.JPG "log_reg phase 2")
+>
+>   **Semi Finalists**
+>   
+>       * Group 1
+>           1. South Africa
+>           2. England
+>
+>       * Group 2
+>           1. Pakistan
+>           2. India
+>
+>   **Finalists** 
+>
+> ![log_final!](log_final.JPG "vanilla prediction finalists")
+>
+>     India vs Pakistan
+>   **Winner** 
+>
+> ![log_winner!](log_winner.JPG "vanilla prediction winner")
+>
+>     Pakistan
+>
 **Note : I have used ICC ranking to resolve the ambiguity between the teams to select top 2 from each group in super 12**
