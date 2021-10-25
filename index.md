@@ -93,8 +93,6 @@ Since logistic regression is a supervised learning algorithm, therefore feature 
 
 The column "winner" has 1, 2 as values representing "Team1" and "Team2". (Note: 0 & 1, 1 & -1 can also represent team1 and team2 numerically)    
 
-<br />
-
 We can derive few variables using existing variables. Deriving new features require good understanding of data and can really help to improve model performance. Following list shows derived variables with "t1" and "t2" as prefix.
 
 > 't1_matches_played', 't1_matches_won','t1_matches_lost', 't1_win_per', 't1_odds_of_win', 't1_win_prob','t1_past10_win_per', 't1_past10_lose_per', 't2_matches_played', 't2_matches_won', 't2_matches_lost', 't2_win_per', 't2_odds_of_win','t2_win_prob', 't2_past10_win_per', 't2_past10_lose_per'
