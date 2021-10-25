@@ -1,0 +1,31 @@
+,date,match,time,team1,team2,pred_prob,winner,group
+0,23-10-2021,australia vs south africa,3:30 PM,australia,south africa,0.5150817607626546,south africa,group1
+1,23-10-2021,england vs west indies,7:30 PM,england,west indies,0.5760428584115627,england,group1
+2,24-10-2021,sri lanka vs bangladesh,3:30 PM,sri lanka,bangladesh,0.661616265423338,sri lanka,group1
+5,26-10-2021,south africa vs west indies,3:30 PM,south africa,west indies,0.6111066429660614,south africa,group1
+7,27-10-2021,england vs bangladesh,3:30 PM,england,bangladesh,0.6853005893164598,england,group1
+9,28-10-2021,australia vs sri lanka,7:30 PM,australia,sri lanka,0.5778635509160194,australia,group1
+10,29-10-2021,west indies vs bangladesh,3:30 PM,west indies,bangladesh,0.6668618257101362,west indies,group1
+12,30-10-2021,south africa vs sri lanka,3:30 PM,south africa,sri lanka,0.6111156056844658,south africa,group1
+13,30-10-2021,england vs australia,7:30 PM,england,australia,0.5229443627182129,england,group1
+16,01-11-2021,england vs sri lanka,7:30 PM,england,sri lanka,0.5742571160001979,england,group1
+17,21-11-2021,south africa vs bangladesh,3:30 PM,south africa,bangladesh,0.7167490140315327,south africa,group1
+21,04-11-2021,australia vs bangladesh,3:30 PM,australia,bangladesh,0.6920028834330317,australia,group1
+22,04-11-2021,west indies vs sri lanka,7:30 PM,west indies,sri lanka,0.5431534632338473,west indies,group1
+25,06-11-2021,australia vs west indies,3:30 PM,australia,west indies,0.5940449171043,australia,group1
+26,06-11-2021,england vs south africa,7:30 PM,england,south africa,0.5065015217985162,south africa,group1
+3,24-10-2021,india vs pakistan,7:30 PM,india,pakistan,0.5822823544626105,pakistan,group2
+4,25-10-2021,afghanistan vs scotland,7:30 PM,afghanistan,scotland,0.6786654135796917,afghanistan,group2
+6,26-10-2021,pakistan vs new zealand,7:30 PM,pakistan,new zealand,0.6574806094473105,pakistan,group2
+8,27-10-2021,scotland vs namibia,7:30 PM,scotland,namibia,0.5471433951841187,scotland,group2
+11,29-10-2021,afghanistan vs pakistan,7:30 PM,afghanistan,pakistan,0.7036534513832379,pakistan,group2
+14,31-10-2021,afghanistan vs namibia,3:30 PM,afghanistan,namibia,0.6869865639226311,afghanistan,group2
+15,31-10-2021,india vs new zealand,7:30 PM,india,new zealand,0.5894455124481892,india,group2
+18,02-11-2021,pakistan vs namibia,7:30 PM,pakistan,namibia,0.8425557630008607,pakistan,group2
+19,03-11-2021,new zealand vs scotland,3:30 PM,new zealand,scotland,0.7416024427145926,new zealand,group2
+20,03-11-2021,india vs afghanistan,7:30 PM,india,afghanistan,0.6650385561123691,india,group2
+23,05-11-2021,new zealand vs namibia,3:30 PM,new zealand,namibia,0.7586993011871291,new zealand,group2
+24,05-11-2021,india vs scotland,7:30 PM,india,scotland,0.79422587661875,india,group2
+27,07-11-2021,new zealand vs afghanistan,3:30 PM,new zealand,afghanistan,0.6019420998066876,new zealand,group2
+28,07-11-2021,pakistan vs scotland,7:30 PM,pakistan,scotland,0.8226468638923259,pakistan,group2
+29,08-11-2021,india vs namibia,7:30 PM,india,namibia,0.7958495816718711,india,group2
