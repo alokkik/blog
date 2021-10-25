@@ -72,13 +72,25 @@ Although indian batting and bowling looks impressive on the graphs, opponent sta
 
 ### Procuring superpower "The prediction model"
 
-Without further ado, lets initiate with the due process of building a prediction model. The data we hold not just has coarse but granular features too. Coarse features help menoeuvre vanilla probabilistic model whereas we can employ coarse, granular and few derived features for advanced statistical algorithms like **Logistic Regression**.
+Without further ado, lets initiate with the due process of building a prediction model. The data we hold not just has coarse but granular features too. Coarse features help menoeuvre vanilla probabilistic model whereas we can employ coarse, granular and few derived features for advanced statistical algorithms like **Logistic Regression**.    
+
 <br />
+
 **Vanilla model**
 
 Vanilla model is nothing but very basic non-complex model. This approach uses past match records of the two competing teams and calculate probabilities of win and lose. In case both the teams never had a face off earlier or both are equally likely to win, then either team with better ICC rankings will be predicted as winner.   
 Curious how to do it? click here to see the code.
 
-The motivation behind this approach is to utilize past head to head contested battles between the teams. 
+The motivation behind this approach is to utilize past head to head contested battles between the teams. Below are phase1 predictions of the model
+
+![indvpak_bowl_econ!](phase1_vanilla_model.PNG "Phase1 prediction")
+
 <br />
+
 **Logistic Regression**
+
+Since logistic regression is a supervised learning algorithm, therefore feature 'winner' be our target column. Column "winner" has 1, 2 as values representing "Team1" and "Team2".(Note: 0 or 1 can also represent team1 and team2)  
+We can derive few variables using existing variables. Deriving new features require good understanding of data and can really help to improve model performance. Below list shows derived varibles with "t1" and "t2" as prefix.
+
+> 't1_matches_played', 't1_matches_won','t1_matches_lost', 't1_win_per', 't1_odds_of_win', 't1_win_prob','t1_past10_win_per', 't1_past10_lose_per', 't2_matches_played', 't2_matches_won', 't2_matches_lost', 't2_win_per', 't2_odds_of_win','t2_win_prob', 't2_past10_win_per', 't2_past10_lose_per'
+
