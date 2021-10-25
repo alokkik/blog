@@ -13,7 +13,7 @@ It doesn't matter, if you are a cricket fan or not, you must have encountered so
 
 ### Where to begin?
 
-Before we procure our superpower to predict, We have to acquire the magical power of historical data first. There is a lot of cricket data available on the internet through different sources but most of them are outdated. For our problem, we need the latest data to make our predictions precise. The following links are some of the most credible sources for cricketing data.
+Before we procure our superpower to predict, We have to acquire the magical power of historical data first. There is a lot of cricket data available on the internet through different sources but most of them are outdated. For our problem, we would require the latest data to make our predictions precise. The following links are some of the most credible sources for cricketing data.
 
 For T-20 data : [ESPN_CricketInfo](https://stats.espncricinfo.com/ci/engine/stats/index.html?class=3;template=results;type=aggregate;view=results)
 
@@ -68,6 +68,9 @@ Lets have a glance over the bowling economy to get a clear distinction between t
 
 Above infographic evince an economical bowling of indian team. 
 
-Although indian batting and bowling looks impressive on the graphs, pakistan team statistics looks promising too.
+Although indian batting and bowling looks impressive on the graphs, opponent stats looks promising too.
 
+### Procuring superpower "The prediction model"
 
+Without further ado, lets initiate with the due process of building a prediction model.   
+The data we have not just had coarse but granular features as well. Coarse feature helps more  
